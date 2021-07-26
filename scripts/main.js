@@ -1,7 +1,6 @@
 var roleHarvester = require('role.harvester');
 var roleUpgrader = require('role.upgrader');
 var roleBuilder = require('role.builder');
-var namer = require('namer');
 var creator = require('creator');
 
 module.exports.loop = function () {
