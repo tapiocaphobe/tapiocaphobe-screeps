@@ -36,7 +36,7 @@ module.exports.loop = function () {
             }
         }
     }
-    console.log("Spawn CPU usage: ", Game.cpu.getUsed() - spawnCPU);
+    //console.log("Spawn CPU usage: ", Game.cpu.getUsed() - spawnCPU);
     
     var roleCPU = Game.cpu.getUsed();
     for(var name in Game.creeps) {
@@ -51,5 +51,5 @@ module.exports.loop = function () {
             roleBuilder.run(creep);
         }
     }
-    console.log("Role CPU usage: ", Game.cpu.getUsed() - roleCPU);
+    //console.log("Role CPU usage: ", Game.cpu.getUsed() - roleCPU);
 }
