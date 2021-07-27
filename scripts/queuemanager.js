@@ -1,4 +1,3 @@
-
 class QueueManager {
     _queue = [];
     _hashmap = new Map();
@@ -27,3 +26,5 @@ class QueueManager {
         }
     }
 }
+
+module.exports = QueueManager;
